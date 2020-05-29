@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+
+.App {
+  background-color: #141413;
+  margin: 0;
+  border: 0;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+#bg {
+  position: absolute;
+  opacity: 1;
+  top: 0px;
+  left: 0px;
+  z-index: 200;
+  width: 4000px;
+  height: 200px;
+}
+
+#introp {
+  position: absolute;
+  z-index: 300;
+  display: none;
+}
+#rallasblancas {
+  position: absolute;
+  opacity: 0;
+  bottom: 0px;
+  right: 0px;
+  z-index: 203;
+  width: 70vw;
+}
+#rallasnegras {
+  position: absolute;
+  opacity: 1;
+  top: 0px;
+  left: 0px;
+  z-index: 202;
+  width: 70vw;
+  display: none;
+}
+#star {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  margin-top: -250px; /* Half the height */
+  margin-left: -250px; /* Half the width */
+  z-index: 201;
+  opacity: 0;
+}
+
+#logo {
+  width: 200px;
+  height: 156px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  z-index: 510;
+  opacity: 0;
+}
+#circle {
+  opacity: 0;
+}
+
+#fc,
+#uxengineer,
+#fullstack,
+#uxdesigner,
+#animator,
+#photographer {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+#fc {
+  position: absolute;
+  top: 50%;
+  z-index: 501;
+  left: -1000px;
+  opacity: 0;
+  min-width: 700px;
+}
+#uxengineer {
+  position: absolute;
+  top: 60%;
+  z-index: 501;
+  left: -1000px;
+  opacity: 0;
+  min-width: 700px;
+}
+#fullstack {
+  position: absolute;
+  top: 60%;
+  z-index: 502;
+  left: -1000px;
+  opacity: 0;
+  min-width: 700px;
+}
+#uxdesigner {
+  position: absolute;
+  top: 60%;
+  z-index: 503;
+  left: -1000px;
+  opacity: 0;
+  min-width: 700px;
+}
+#animator {
+  position: absolute;
+  top: 60%;
+  z-index: 504;
+  left: -1000px;
+  opacity: 0;
+  min-width: 700px;
+}
+#photographer {
+  position: absolute;
+  top: 60%;
+  z-index: 505;
+  left: -1000px;
+  opacity: 0;
+  min-width: 700px;
+}

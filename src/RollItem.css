@@ -1,0 +1,31 @@
+hr{
+    border-top: 1px solid white;
+}
+
+.btn.inverse {
+    color: #222;
+    background-color: white;
+    border-color: #b7b7b7;
+}
+
+.special {
+    position: relative;
+    margin: 5%;
+    cursor: pointer;
+    /* max-width: 100vw; */
+    /* height: 70vh;  */
+}
+  
+/* .special img {
+    position: absolute;
+}  */
+  
+.filtered {
+    width: 100%;
+    filter: url(#duotone);
+    transition: opacity 1s;
+}
+  
+.filtered:hover {
+    opacity: 0;
+}

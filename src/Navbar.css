@@ -1,0 +1,41 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    z-index: 1001;
+    position: fixed;
+    top: -20px;
+    left: 0px;
+    width: 100vw;
+    background-color: #141413;
+}
+
+.navbar-item{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+.Nav_link:link {
+    color: #fff;
+    font-size: 1.4rem;
+    /* line-height: 1.6rem; */
+    text-decoration: none;
+}
+
+.Nav_link:visited {
+    color: white;
+}
+
+.Nav_link:hover {
+    color: #D2DB00;
+}
+.imgsvg:hover{
+    color: #D2DB00;
+}
+
+.Nav_link:active {
+    color: teal;
+}

@@ -1,0 +1,23 @@
+.navbar {
+  text-align: center;
+  z-index: 100001;
+}
+
+html, body {
+  background-color: #141413;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 100002;
+}
+
+.App{
+  background-color: #141413;
+  color: white;
+}

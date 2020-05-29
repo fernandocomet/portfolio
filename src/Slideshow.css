@@ -1,0 +1,56 @@
+body {
+    background-color: #141413;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    color: white;
+    font-family: "Lato", sans-serif;
+    overflow: hidden;
+  }
+  #bg {
+    width: 100vw;
+    height: 100vh;
+  }
+  #message {
+    font-size: 60px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: -2000px;
+    min-width: 100vw;
+    color: white;
+    /*Add Media query for mobile*/
+  }
+  #description {
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    left: -2000px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* xPercent: -50; */
+    top: 50%;
+    min-width: 100vw;
+    color: white;
+  }
+  #description2 {
+    font-size: 20px;
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+    min-width: 100vw;
+    color: white;
+  }
+  #thanksto {
+    font-size: 20px;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    min-width: 100vw;
+    color: white;
+  }
+  #pic{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+  }
