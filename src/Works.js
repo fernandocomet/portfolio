@@ -14,7 +14,8 @@ class Works extends Component{
     }
 
   componentDidMount(){
-      fetch('https://raw.githubusercontent.com/fernandocomet/website/master/fernandocomet/src/data/portfolio.json')
+      //fetch('https://raw.githubusercontent.com/fernandocomet/website/master/fernandocomet/src/data/portfolio.json')
+      fetch('https://raw.githubusercontent.com/fernandocomet/portfolio/master/src/data/portfolio.json')
         .then(response => response.json())
         .then(data => this.setState({ data }))
   }

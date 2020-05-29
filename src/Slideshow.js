@@ -31,7 +31,7 @@ class Slideshow extends Component{
       }
 
     async componentDidMount(){
-      const response = await fetch(`https://raw.githubusercontent.com/fernandocomet/website/master/fernandocomet/src/data/portfolio.json`);
+      const response = await fetch(`https://raw.githubusercontent.com/fernandocomet/portfolio/master/src/data/portfolio.json`);
       const json = await response.json();
       this.setState({ 
           data: json,
