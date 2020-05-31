@@ -18,7 +18,7 @@ class Text extends Component{
           {"title": "I had more than 50K readers for the article 'My UX Resource list' at Medium"},
           {"title": "Pen & Pencil are esential for me, then I jump to Trello, then to Design and then Code"},
           {"title": "Main problem I find on Ad Production is about compatibility between software or how to translate a designer work to code, I like Scratch!"},
-          {"title": "As a travel photographer I have been to Netherlands, Berlin, London, Morocco, Philippines, NY, Mexico, Colombia and lots of places at Spain"},
+          {"title": "As a travel photographer I have been to Netherlands, Berlin, London, Morocco, Philippines, NY, Mexico, Colombia and Spain"},
           {"title": "My live is like a Lab,I discover new things and try to do them. Yeah, I´m a Maker!"},
           {"title": "Mainly I like PhotoWalks, going wherever, explore place and people, wait for golden hour, getting in touch with locals, have a beer."},
           {"title": "A freelance developer working wherever"},
@@ -27,20 +27,17 @@ class Text extends Component{
           {"title": "I was one of the Flash boys making noise in the internet some years ago"},
           {"title": "So after 15 years working at online advertising industry I decided to install an AdBlocker (and I´m quite happy about it!)"},
           {"title": "I like surfing on the web, open every day about 50 websites, at nights, spend nice time there. I´ve been doing this for 15 years or more"},
-          {"title": "I would say I am a Photographer focused on Travel, events and Stock Photo, but also I have made night photo, steel wool, conceptual or modelling."},
+          {"title": "I am a Photographer focused on Travel, events and Stock Photo, but also I have made night photo, steel wool, conceptual or modelling."},
           {"title": "I´m sorry for designers but for me the Single Source of Truth is not Notion, but Github."},
-          {"title": "Mainly I use Github as a resource and help, Medium for writing and discovering, Pinterest to collect, Twitter and Linkedin to stay tuned, and some new as DevTo and Observable."},
+          {"title": "I use Github as a resource, Medium for writing and discovering, Pinterest to collect, Twitter, Linkedin and DevTo to stay tuned."},
           {"title": "I won the third prize for photography for National Geographic and Ron Brugal a few years ago, in fact I was magazine cover."},
           {"title": "As I was giving support to Creative Agencies for years, I have a high quality network of freelance contacts."},
           {"title": "I am a Lifelong learner, Fictizia, Mr. Marcel School, Interaction Design Foundation, Ironhack and Udemy lastly."},
           {"title": "I'm really just a collector, I collect websites, images, articles, resources, Apps, and then organize them."},
-          {"title": "Some icons and images from this website are from TheNounProject and Unsplash, see credits at Github."}, 
-          {"title": "."}, 
-          {"title": "."}, 
-          {"title": "."}, 
-          {"title": "."}, 
-          {"title": "."}, 
-          {"title": "Jim quickly realized that the beautiful gowns are expensive"}
+          {"title": "Some icons and images from this website are from TheNounProject and Unsplash, see credits at Github."},
+          {"title": "I am a curious mind, free spirit and independent, a searcher, a lifelong learner and a hard worker."},
+          {"title": "I have a multidisciplinar profile between design, programming, and technical support."},
+          {"title": "But also I have other skills such as being a workshop facilitator, article writer and a photographer."}
         ]
     }
 
@@ -115,7 +112,7 @@ class Text extends Component{
     }
 
     changeText(arr) {
-        console.log(this.state.counter);
+        //console.log(this.state.counter);
         let counterChange = this.state.counter + 1;
         if (counterChange === this.props.messages.length) {
             counterChange = 0;

@@ -7,14 +7,15 @@
     z-index: 1001;
     position: fixed;
     top: -20px;
-    left: 0px;
+    left: 10px;
     width: 100vw;
     background-color: #141413;
 }
 
 .navbar-item{
     margin-top: 20px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    margin-right: 20px;
 }
 
 

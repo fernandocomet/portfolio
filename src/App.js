@@ -19,7 +19,7 @@ class App extends Component{
       {name: "home", icon: "home.svg", src: home}, 
       {name: "text", icon: "text.svg", src: text},
       {name: "works", icon: "works.svg", src: works},
-      {name: "workroll", icon: "workroll.svg", src: workroll},
+      {name: "roll", icon: "workroll.svg", src: workroll},
       {name: "about", icon: "monster.svg", src: monster}
     ]
   }

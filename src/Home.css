@@ -72,7 +72,7 @@
 #uxdesigner,
 #animator,
 #photographer {
-  font-size: 60px;
+  font-size: 50px;
   color: white;
   text-align: center;
 }
@@ -82,7 +82,7 @@
   z-index: 501;
   left: -1000px;
   opacity: 0;
-  min-width: 700px;
+  min-width: 100vw;
 }
 #uxengineer {
   position: absolute;
@@ -90,7 +90,7 @@
   z-index: 501;
   left: -1000px;
   opacity: 0;
-  min-width: 700px;
+  min-width: 100vw;
 }
 #fullstack {
   position: absolute;
@@ -98,7 +98,7 @@
   z-index: 502;
   left: -1000px;
   opacity: 0;
-  min-width: 700px;
+  min-width: 100vw;
 }
 #uxdesigner {
   position: absolute;
@@ -106,7 +106,7 @@
   z-index: 503;
   left: -1000px;
   opacity: 0;
-  min-width: 700px;
+  min-width: 100vw;
 }
 #animator {
   position: absolute;
@@ -114,7 +114,7 @@
   z-index: 504;
   left: -1000px;
   opacity: 0;
-  min-width: 700px;
+  min-width: 100vw;
 }
 #photographer {
   position: absolute;
@@ -122,5 +122,5 @@
   z-index: 505;
   left: -1000px;
   opacity: 0;
-  min-width: 700px;
+  min-width: 100vw;
 }
