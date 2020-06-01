@@ -5,14 +5,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { ExternalLink } from 'react-external-link';
 
 class About extends Component{
-
+   
     render(){
         return(           
                 <div className="container hola">
                     <h1 className="display-1 point">.</h1>
 
                     <div className="row mb-5">
-                            <div className="col-md-6 text-right"><img src="https://www.fernandocomet.com/img/about/profile.jpg" className="img-fluid" id="fc_pic"  alt='profile'/></div>
+                            <div className="col-md-6 text-right"><img src="https://raw.githubusercontent.com/fernandocomet/portfolio/master/src/img/about/profile.jpg" className="img-fluid" id="fc_pic"  alt='profile'/></div>
                             <div className="col-md-6">
                                 <div className="row">
                                     <div className="col-12"><h1 className="display-5 text-left">Fernando Comet</h1></div>
@@ -25,7 +25,7 @@ class About extends Component{
                     </div>
 
                     <div className="row mb-5">
-                        <div className="col-md-6 text-right"><img src="https://www.fernandocomet.com/img/about/github.jpg" className="img-fluid" id="fullstack_pic" alt='github' /></div>
+                        <div className="col-md-6 text-right"><img src="https://raw.githubusercontent.com/fernandocomet/portfolio/master/src/img/about/github.jpg" className="img-fluid" id="fullstack_pic" alt='github' /></div>
                         <div className="col-md-6">
                             <div className="row">
                                 <div className="col-12"><h1 className="display-5">Full Stack Web Developer</h1></div>
@@ -37,7 +37,7 @@ class About extends Component{
                     </div>
 
                     <div className="row mb-5">
-                        <div className="col-md-6 text-right"><img src="https://www.fernandocomet.com/img/about/customerjourney.png" className="img-fluid" id="uxdesigner_pic" alt='research' /></div>
+                        <div className="col-md-6 text-right"><img src="https://raw.githubusercontent.com/fernandocomet/portfolio/master/src/img/about/customerjourney.png" className="img-fluid" id="uxdesigner_pic" alt='research' /></div>
                         <div className="col-md-6">
                             <div className="row">
                                 <div className="col-12"><h1 className="display-5">UX Designer & Researcher</h1></div>
@@ -50,7 +50,7 @@ class About extends Component{
                     </div>
 
                     <div className="row mb-5">
-                        <div className="col-md-6 text-right"><img src="https://www.fernandocomet.com/img/about/fitur1.jpg" className="img-fluid" id="animator_pic" alt='fitur' /></div>
+                        <div className="col-md-6 text-right"><img src="https://raw.githubusercontent.com/fernandocomet/portfolio/master/src/img/about/fitur1.jpg" className="img-fluid" id="animator_pic" alt='fitur' /></div>
                         <div className="col-md-6">
                             <div className="row">
                                 <div className="col-12"><h1 className="display-5">UI Animator & Ad Specialist</h1></div>
@@ -63,7 +63,7 @@ class About extends Component{
                     </div>
 
                     <div className="row mb-5">
-                        <div className="col-md-6 text-right"><img src="https://www.fernandocomet.com/img/about/puntapaloma.jpg" className="img-fluid" id="photographer_pic" alt='puntapaloma' /></div>
+                        <div className="col-md-6 text-right"><img src="https://raw.githubusercontent.com/fernandocomet/portfolio/master/src/img/about/puntapaloma.jpg" className="img-fluid" id="photographer_pic" alt='puntapaloma' /></div>
                         <div className="col-md-6">
                             <div className="row">
                                 <div className="col-12"><h1 className="display-5">Photographer</h1></div>

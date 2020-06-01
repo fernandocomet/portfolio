@@ -54,32 +54,31 @@ class Home extends Component{
                 for more than 15 years in the Digital industry. Looking for new
                 opportunities and challenges.{" "}
               </p>
-    
               <div id="intro">
                 <img
-                  src="https://www.fernandocomet.com/img/intro/rallasblancas2.svg"
+                  src="https://raw.githubusercontent.com/fernandocomet/portfolio/master/src/img/intro/rallasblancas2.svg"
                   id="rallasblancas"
                   alt="rallasblancas"
                 />
                 <img
-                  src="https://www.fernandocomet.com/img/intro/rallasnegras2.svg"
+                  src="https://raw.githubusercontent.com/fernandocomet/portfolio/master/src/img/intro/rallasnegras2.svg"
                   id="rallasnegras"
                   alt="rallasnegras"
                 />
                 <img
-                  src="https://www.fernandocomet.com/img/intro/star.svg"
+                  src="https://raw.githubusercontent.com/fernandocomet/portfolio/master/src/img/intro/star.svg"
                   id="star"
                   alt="star"
                 />
                 <img
-                  src="https://www.fernandocomet.com/img/intro/bg.svg"
+                  src="https://raw.githubusercontent.com/fernandocomet/portfolio/master/src/img/intro/bg.svg"
                   id="bg"
                   alt="bg"
                 />
               </div>
     
               <img
-                src="https://www.fernandocomet.com/img/intro/logo.png"
+                src="https://raw.githubusercontent.com/fernandocomet/portfolio/master/src/img/intro/logo.png"
                 id="logo"
                 alt="logo"
               />
