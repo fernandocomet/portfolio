@@ -9,7 +9,7 @@ class Navbar extends Component{
             <div className="navbar-item" key={item.name}>
                 <NavLink className="Nav_link" exact to={`/${item.name}`}>
                     <img className="imgsvg" src={item.src} alt={item.name} width='24px' margin-right='5px'/> 
-                    {/* {item.name} */}
+                     {/* {item.name}  */}
                 </NavLink>
             </div>
         ))

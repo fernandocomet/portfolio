@@ -25,6 +25,19 @@ class About extends Component{
                     </div>
 
                     <div className="row mb-5">
+                        <div className="col-md-6 text-right"><img src="https://raw.githubusercontent.com/fernandocomet/portfolio/master/src/img/about/fitur1.jpg" className="img-fluid" id="animator_pic" alt='fitur' /></div>
+                        <div className="col-md-6">
+                            <div className="row">
+                                <div className="col-12"><h1 className="display-5">Display Ad Specialist & UI Animator</h1></div>
+                            </div>
+                            <div className="row pl-3">
+                            <p>I have worked in Digital Agencies such as Genetsis Partners, Comunica+A and Making Science, also I have worked on Adserving as Ad Specialist. For more than eight at Weborama my work was giving technical support to creative and media agencies. This involved production, design, coding, support, trainings and workshops, documentation, creation of new Ad Formats and campaign coordination, giving support for the most known Advertisers and more than 200 agencies in Spain, Europe and Latam markets.</p>
+                            <p>I am working a lot now with DCO. I can animate using tools as Principle or After Effects. And for Ads, I am an expert on Adobe AnimateCC, Google Web Designer and can animate also by code using libraries such as Gsap, Velocity, Anime or Pixi. <ExternalLink href="https://skillshop.exceedlms.com/profiles/7f05b62a10484d2783b02431d41dd896">I am certified by Google </ExternalLink> on Ads production and I am also using last trends on SVG animation.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="row mb-5">
                         <div className="col-md-6 text-right"><img src="https://raw.githubusercontent.com/fernandocomet/portfolio/master/src/img/about/github.jpg" className="img-fluid" id="fullstack_pic" alt='github' /></div>
                         <div className="col-md-6">
                             <div className="row">
@@ -49,18 +62,6 @@ class About extends Component{
                         </div>
                     </div>
 
-                    <div className="row mb-5">
-                        <div className="col-md-6 text-right"><img src="https://raw.githubusercontent.com/fernandocomet/portfolio/master/src/img/about/fitur1.jpg" className="img-fluid" id="animator_pic" alt='fitur' /></div>
-                        <div className="col-md-6">
-                            <div className="row">
-                                <div className="col-12"><h1 className="display-5">UI Animator & Ad Specialist</h1></div>
-                            </div>
-                            <div className="row pl-3">
-                            <p>I come from Display Advertising where I worked in Digital Agencies such as Genetsis Partners and Comunica+A first, and then on Adserving as Ad Specialist. For more than eight at Weborama my work was giving technical support to creative and media agencies. This involved production, design, coding, support, trainings and workshops, documentation, creation of new Ad Formats and campaign coordination, giving support for the most known Advertisers and more than 200 agencies in Spain, Europe and Latam markets.</p>
-                            <p>I can animate using tools as Principle or After Effects. And for Ads, I am an expert on Adobe AnimateCC, Google Web Designer and can animate also by code using libraries such as Gsap, Velocity, Anime or Pixi. <ExternalLink href="https://skillshop.exceedlms.com/profiles/7f05b62a10484d2783b02431d41dd896">I am certified by Google </ExternalLink> on Ads production and I am also using last trends on SVG animation.</p>
-                            </div>
-                        </div>
-                    </div>
 
                     <div className="row mb-5">
                         <div className="col-md-6 text-right"><img src="https://raw.githubusercontent.com/fernandocomet/portfolio/master/src/img/about/puntapaloma.jpg" className="img-fluid" id="photographer_pic" alt='puntapaloma' /></div>

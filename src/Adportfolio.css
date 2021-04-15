@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+html, body, section {
+  background-color: #141413;
+  margin: 20;
+  border: 0;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+.adportfolio{
+  color:white;
+}
+
+p, h1{
+  color: white;
+}
+
+.hola{
+  top: 500px;
+  color: white;
+}
+
+.point{
+  color: #141413;
+}
+
+p{
+  font-size: 20px;
+}
+
+.advert{
+    height: 600px;
+}
